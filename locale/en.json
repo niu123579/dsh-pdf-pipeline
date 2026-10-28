@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PDF Pipeline",
+    "description": "Exports Markdown to a beautifully typeset PDF (LaTeX math, mhchem and chemfig formulas, CJK) and extracts text plus detected formulas from PDF and PPTX documents."
+  }
+}

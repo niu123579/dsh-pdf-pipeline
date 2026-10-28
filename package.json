@@ -1,0 +1,44 @@
+{
+  "name": "dsh-pdf-pipeline",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Markdown → 排版精美的 PDF（LaTeX 数学/化学式）+ 从 PDF/PPTX/DOCX 提取文本与公式",
+  "license": "MIT",
+  "author": "WWWEAP",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niu123579/dsh-pdf-pipeline.git"
+  },
+  "keywords": [
+    "dsh",
+    "pdf",
+    "latex",
+    "pandoc",
+    "tectonic",
+    "mhchem",
+    "chemfig",
+    "formula",
+    "extract"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/download.js",
+    "lib/export.js",
+    "lib/extract.js",
+    "python/extract_doc.py",
+    "cordis.patch.yml",
+    "locale/en.json",
+    "locale/zh.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

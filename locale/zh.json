@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PDF 管线",
+    "description": "将 Markdown 导出为排版精美的 PDF（LaTeX 数学公式、mhchem/chemfig 化学式、中文），并从 PDF / PPTX 文档中提取文本与识别公式。"
+  }
+}
